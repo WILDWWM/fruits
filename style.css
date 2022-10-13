@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container_principal{
+    background-image: url("./images/all-fruits.jpg");    
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+
+.container_fruit{
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+}
+
+.rectangle {
+    height: 190px;
+    width: 100%;
+    border: 2px solid;
+    background-color: rgb(114, 114, 114);
+  }
+
+  .orange{
+    display: flex;   
+  }
+
+  .kiwi{
+    display: flex;
+  }
+
+  .banane{
+    display: flex;
+  }
+
+  .cerise{
+    display: flex;
+  }
+
+  p{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .rectangle:hover{
+    background-color: grey;
+  }
+
+
