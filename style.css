@@ -11,8 +11,10 @@
 
 .container_principal{
     background-image: url("./images/all-fruits.jpg");    
-    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 50%;
+
     height: 100vh;
 }
 
@@ -23,37 +25,28 @@
 }
 
 .rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 190px;
     width: 100%;
     border: 2px solid;
     background-color: rgb(114, 114, 114);
   }
 
-  .orange{
-    display: flex;     
-  }
-
-  .kiwi{
-    display: flex;
-  }
-
-  .banane{
-    display: flex;
-  }
-
-  .cerise{
-    display: flex;
-  }
-
   p{
-    margin: auto;
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
   }
 
   .rectangle:hover{
     background-color: rgb(55, 55, 55);
+  }
+
+  .bouton{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
   }
 
 
