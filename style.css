@@ -18,7 +18,7 @@
     height: 100vh;
 }
 
-.container_fruit{
+#container_fruit{
     display: flex;
     flex-direction: column;    
     width: 50%;
