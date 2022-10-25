@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titre"></h1>
+    <script>
+        // const monTitre = document.getElementById("titre");
+        // let heure = 9;
+        // let name = "Jérimie";
+
+        // if (heure >=10 && heure < 14) {
+        //     monTitre.innerHTML = "Bonne matinée " + name;
+        // }else if (heure >= 14 && heure < 18) {
+        //     monTitre.innerHTML = "Bonne journée " + name;
+        // } else if (heure >= 18 && heure < 24) {
+        //     monTitre.innerHTML = "Bonne soirée " + name;
+        // } else if (heure < 10) {
+        //     monTitre.innerHTML = "Va te coucher " + name;
+        // } else {
+        //     monTitre.innerHTML = "Erreur de saisie, veuillez entrer un chiffre correct";
+        // } 
+
+        const monTitre = document.getElementById("titre");
+        let nombre1 = 2;
+        let nombre2 = 4;
+
+        function Multiplication(nb1, nb2) {             
+            return nb1 * nb2;
+        }
+
+        monTitre.innerHTML = Multiplication(nombre1, nombre2);
+        
+    </script>
+</body>
+</html>
